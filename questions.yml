@@ -16,7 +16,7 @@ questions:
   default: true
   description: "don't kill pods, only log what would have been done"
   type: boolean
-  show_subquestion_if: no-dry-run
+  show_subquestion_if: 
   label: Dry Run Mode
   group: "Dry Run"
 - variable: replicas
