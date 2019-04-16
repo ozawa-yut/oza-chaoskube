@@ -5,7 +5,7 @@ questions:
     label: Use Default Image
     type: boolean
     show_subquestion_if: false
-    group: "Container Imagesozaozaozoa"
+    group: "Container Images"
     subquestions:
     - variable: image
       default: "quay.io/linki/chaoskube"
