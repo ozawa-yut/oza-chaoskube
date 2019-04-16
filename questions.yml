@@ -15,9 +15,9 @@ questions:
 - variable: dryRun
   default: true
   description: "don't kill pods, only log what would have been done"
-  label: Dry Run Mode
   type: boolean
   show_subquestion_if: false
+  label: Dry Run Mode
   group: "Dry Run"
 - variable: replicas
   default: "1"
@@ -28,8 +28,8 @@ questions:
   group: "Setting"
 - variable: interval
   default: "10m"
-  label: interval
   description: "interval between pod terminations"
   type: string
   required: true
+  label: Interval
   group: "Setting"
