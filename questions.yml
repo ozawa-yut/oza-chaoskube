@@ -1,6 +1,6 @@
 questions:
 - variable: defaultImage
-  default: false
+  default: true
   description: "Use default Docker Image"
   label: Use Default Image
   type: boolean
