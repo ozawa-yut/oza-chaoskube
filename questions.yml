@@ -14,7 +14,7 @@ questions:
     label: chaoskube Image Name
 - variable: dryRun
   default: true
-  description: "don't kill pods, only log what would have been done"
+  description: "don't kill pods, only log what would have been done‚ ‚ ‚ ‚ ‚ ‚ ˆŸ"
   type: boolean
   show_subquestion_if: false
   label: Dry Run Mode
