@@ -18,5 +18,18 @@ questions:
   label: Dry Run Mode
   type: boolean
   show_subquestion_if: false
-  group: "Use Dry Run"
-
+  group: "Dry Run"
+- variable: replicas
+  default: "1"
+  description: "number of replicas to run"
+  type: string
+  required: true
+  label: number of replicas to run
+  group: "Setting"
+- variable: interval
+  default: "10m"
+  label: interval
+  description: "interval between pod terminations"
+  type: string
+  required: true
+  group: "Setting"
