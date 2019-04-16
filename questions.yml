@@ -33,3 +33,32 @@ questions:
   required: true
   label: Interval
   group: "Setting"
+- variable: excludedWeekdays
+  default: 
+  description: "Set values for exempting specific week days from Chaoskube Actions"
+  type: string
+  required: false
+  label: excludedWeekdays
+  group: "Action"
+- variable: excludedTimesOfDay
+  default: 
+  description: "Set values for exempting specific times of day from Chaoskube Actions"
+  type: string
+  required: false
+  label: excludedTimesOfDay
+  group: "Action"
+- variable: excludedDaysOfYear
+  default: 
+  description: "Set values for exempting specific days of the year from Chaoskube Actions (Dec24,Jan1)"
+  type: string
+  required: false
+  label: excludedDaysOfYear
+  group: "Action"
+- variable: timezone
+  default: UTC
+  description: "Set specific Timezone for Actions to take place"
+  type: string
+  required: true
+  label: timezone
+  group: "Action"
+
