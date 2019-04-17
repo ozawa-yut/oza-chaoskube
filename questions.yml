@@ -16,7 +16,7 @@ questions:
   default: true
   description: "don't kill pods, only log what would have been done"
   type: boolean
-  show_subquestion_if: 
+  show_subquestion_if: false
   label: Dry Run Mode
   group: "Dry Run"
 - variable: replicas
@@ -32,6 +32,13 @@ questions:
   type: string
   required: true
   label: Interval
+  group: "Setting"
+- variable: rbac.create
+  default: true
+  description: "create rbac service account and roles"
+  type: boolean
+  show_subquestion_if: false
+  label: RBAC Create
   group: "Setting"
 - variable: excludedWeekdays
   default: 
